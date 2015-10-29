@@ -1,0 +1,438 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		188A6150DFCE2BCD8A75017B5FB62053 /* SVHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 72BC6BD6C313544E36A652FA68CE4479 /* SVHTTPClient.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		352BCC455DC34C28936D0ACCA2F238A4 /* SVHTTPRequest-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C21C408CFA3F104306EABE2A3CF4FB19 /* SVHTTPRequest-dummy.m */; };
+		7206BE35B6EF74C5A1C3C042A7224DE4 /* Pods-Crescendo Homework-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2226E2FA7D4ED873FB9C8335D6ECB72 /* Pods-Crescendo Homework-dummy.m */; };
+		7C8C821CA2F5D73D68F12C5250F1179D /* SVHTTPRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = AC93491C8136876A9FFA60E44C254B1B /* SVHTTPRequest.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B9EDCDDE452020E4508E6522930E58F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2124FE454DE8724F9859ED2FC2E998A4 /* Foundation.framework */; };
+		DB71FDF264D1CC758F632FC3F4CF6497 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2124FE454DE8724F9859ED2FC2E998A4 /* Foundation.framework */; };
+		E0F4C8FE4A7B3CBBCF0B94DC20B40A0B /* SVHTTPClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D0A005971B1C4882BD8C10E73D48D17 /* SVHTTPClient.h */; };
+		EA2B188719B3C428C19DF9CCBB6DDFBC /* SVHTTPRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E06357FF82256458E617B0FBF79E00C /* SVHTTPRequest.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6814579F25C963F235080865618F366E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6A0AEFC53931F38BB40E04B61E5FA58E;
+			remoteInfo = SVHTTPRequest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		07ECC5EC68731A498AFCBB1682A701A7 /* Pods-Crescendo Homework-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Crescendo Homework-acknowledgements.plist"; sourceTree = "<group>"; };
+		0C93FAB313FF6854718BBAB55B085063 /* libPods-Crescendo Homework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Crescendo Homework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E06357FF82256458E617B0FBF79E00C /* SVHTTPRequest.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVHTTPRequest.h; path = SVHTTPRequest/SVHTTPRequest.h; sourceTree = "<group>"; };
+		1F2AE2873465BB2519857CE93C90F1AB /* Pods-Crescendo Homework-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Crescendo Homework-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2124FE454DE8724F9859ED2FC2E998A4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DBF92CA3C47D48DFC7FC7987227F2EA /* libSVHTTPRequest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libSVHTTPRequest.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		72BC6BD6C313544E36A652FA68CE4479 /* SVHTTPClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVHTTPClient.m; path = SVHTTPRequest/SVHTTPClient.m; sourceTree = "<group>"; };
+		7D0A005971B1C4882BD8C10E73D48D17 /* SVHTTPClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVHTTPClient.h; path = SVHTTPRequest/SVHTTPClient.h; sourceTree = "<group>"; };
+		9547403509BFEDF581600BEADB367B8B /* SVHTTPRequest-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SVHTTPRequest-Private.xcconfig"; sourceTree = "<group>"; };
+		AC93491C8136876A9FFA60E44C254B1B /* SVHTTPRequest.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVHTTPRequest.m; path = SVHTTPRequest/SVHTTPRequest.m; sourceTree = "<group>"; };
+		B652FA2AE7DBCDE172147E5212ECC538 /* Pods-Crescendo Homework.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crescendo Homework.release.xcconfig"; sourceTree = "<group>"; };
+		BA346C5DB9FDA3E5FF864E18C51EC605 /* SVHTTPRequest.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVHTTPRequest.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE8AD0339B846EE127376548A7435B25 /* Pods-Crescendo Homework.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Crescendo Homework.debug.xcconfig"; sourceTree = "<group>"; };
+		C21C408CFA3F104306EABE2A3CF4FB19 /* SVHTTPRequest-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVHTTPRequest-dummy.m"; sourceTree = "<group>"; };
+		D6488A9B65DF7139EFACC71798A366A7 /* SVHTTPRequest-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVHTTPRequest-prefix.pch"; sourceTree = "<group>"; };
+		E2226E2FA7D4ED873FB9C8335D6ECB72 /* Pods-Crescendo Homework-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Crescendo Homework-dummy.m"; sourceTree = "<group>"; };
+		F990B57E99A5475FFC11FB2173E3FDAA /* Pods-Crescendo Homework-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Crescendo Homework-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B25E3FF3A13CDE9EB9B2C8408BD1273D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9EDCDDE452020E4508E6522930E58F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7E3C4254222FB4703CCE375441CCA0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB71FDF264D1CC758F632FC3F4CF6497 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		38810F92E22EA9467C61A554339336FD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BA346C5DB9FDA3E5FF864E18C51EC605 /* SVHTTPRequest.xcconfig */,
+				9547403509BFEDF581600BEADB367B8B /* SVHTTPRequest-Private.xcconfig */,
+				C21C408CFA3F104306EABE2A3CF4FB19 /* SVHTTPRequest-dummy.m */,
+				D6488A9B65DF7139EFACC71798A366A7 /* SVHTTPRequest-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SVHTTPRequest";
+			sourceTree = "<group>";
+		};
+		432E041244131BBC8FD516D7804BD9A6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B9FEAFC0036F9FCEAAA6F8FD03CE84D4 /* Pods-Crescendo Homework */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2124FE454DE8724F9859ED2FC2E998A4 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		57F63C2C4A2C3CE2518C91ADE8D836F2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				83789D858EF824ED018E58EB7B4AE243 /* SVHTTPRequest */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				57F63C2C4A2C3CE2518C91ADE8D836F2 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				432E041244131BBC8FD516D7804BD9A6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		83789D858EF824ED018E58EB7B4AE243 /* SVHTTPRequest */ = {
+			isa = PBXGroup;
+			children = (
+				7D0A005971B1C4882BD8C10E73D48D17 /* SVHTTPClient.h */,
+				72BC6BD6C313544E36A652FA68CE4479 /* SVHTTPClient.m */,
+				0E06357FF82256458E617B0FBF79E00C /* SVHTTPRequest.h */,
+				AC93491C8136876A9FFA60E44C254B1B /* SVHTTPRequest.m */,
+				38810F92E22EA9467C61A554339336FD /* Support Files */,
+			);
+			path = SVHTTPRequest;
+			sourceTree = "<group>";
+		};
+		B9FEAFC0036F9FCEAAA6F8FD03CE84D4 /* Pods-Crescendo Homework */ = {
+			isa = PBXGroup;
+			children = (
+				1F2AE2873465BB2519857CE93C90F1AB /* Pods-Crescendo Homework-acknowledgements.markdown */,
+				07ECC5EC68731A498AFCBB1682A701A7 /* Pods-Crescendo Homework-acknowledgements.plist */,
+				E2226E2FA7D4ED873FB9C8335D6ECB72 /* Pods-Crescendo Homework-dummy.m */,
+				F990B57E99A5475FFC11FB2173E3FDAA /* Pods-Crescendo Homework-resources.sh */,
+				BE8AD0339B846EE127376548A7435B25 /* Pods-Crescendo Homework.debug.xcconfig */,
+				B652FA2AE7DBCDE172147E5212ECC538 /* Pods-Crescendo Homework.release.xcconfig */,
+			);
+			name = "Pods-Crescendo Homework";
+			path = "Target Support Files/Pods-Crescendo Homework";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C93FAB313FF6854718BBAB55B085063 /* libPods-Crescendo Homework.a */,
+				6DBF92CA3C47D48DFC7FC7987227F2EA /* libSVHTTPRequest.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		389CC8DCFCAD5E1E15C8809C3A3A6F3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0F4C8FE4A7B3CBBCF0B94DC20B40A0B /* SVHTTPClient.h in Headers */,
+				EA2B188719B3C428C19DF9CCBB6DDFBC /* SVHTTPRequest.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		541119218691C87190723DC7D6843C86 /* Pods-Crescendo Homework */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4265CA9215C1CA331320FE7E05CBC9D /* Build configuration list for PBXNativeTarget "Pods-Crescendo Homework" */;
+			buildPhases = (
+				4B1620F6D26EC8D4C6DD0D1C1E6AC94B /* Sources */,
+				B25E3FF3A13CDE9EB9B2C8408BD1273D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1809EA17F9A759E1C1916BA4342DF978 /* PBXTargetDependency */,
+			);
+			name = "Pods-Crescendo Homework";
+			productName = "Pods-Crescendo Homework";
+			productReference = 0C93FAB313FF6854718BBAB55B085063 /* libPods-Crescendo Homework.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		6A0AEFC53931F38BB40E04B61E5FA58E /* SVHTTPRequest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6D62E66FC80A1E23E63378963C9C389E /* Build configuration list for PBXNativeTarget "SVHTTPRequest" */;
+			buildPhases = (
+				9BB569EF858771380B960CCA8E34F1A8 /* Sources */,
+				F7E3C4254222FB4703CCE375441CCA0D /* Frameworks */,
+				389CC8DCFCAD5E1E15C8809C3A3A6F3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SVHTTPRequest;
+			productName = SVHTTPRequest;
+			productReference = 6DBF92CA3C47D48DFC7FC7987227F2EA /* libSVHTTPRequest.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				541119218691C87190723DC7D6843C86 /* Pods-Crescendo Homework */,
+				6A0AEFC53931F38BB40E04B61E5FA58E /* SVHTTPRequest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B1620F6D26EC8D4C6DD0D1C1E6AC94B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7206BE35B6EF74C5A1C3C042A7224DE4 /* Pods-Crescendo Homework-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB569EF858771380B960CCA8E34F1A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				188A6150DFCE2BCD8A75017B5FB62053 /* SVHTTPClient.m in Sources */,
+				352BCC455DC34C28936D0ACCA2F238A4 /* SVHTTPRequest-dummy.m in Sources */,
+				7C8C821CA2F5D73D68F12C5250F1179D /* SVHTTPRequest.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1809EA17F9A759E1C1916BA4342DF978 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SVHTTPRequest;
+			target = 6A0AEFC53931F38BB40E04B61E5FA58E /* SVHTTPRequest */;
+			targetProxy = 6814579F25C963F235080865618F366E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0091C5CF23678070FFFFF293F56E64EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE8AD0339B846EE127376548A7435B25 /* Pods-Crescendo Homework.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		74857149DC1E0D599B8A01A78349A926 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E61BD0B77977949ADF1FA58EC375B61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9547403509BFEDF581600BEADB367B8B /* SVHTTPRequest-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVHTTPRequest/SVHTTPRequest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C59BB2E97F7221F0A7B5BA8CB0031273 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B652FA2AE7DBCDE172147E5212ECC538 /* Pods-Crescendo Homework.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E4083A863A7E76C016B007F93BAE7A12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9547403509BFEDF581600BEADB367B8B /* SVHTTPRequest-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SVHTTPRequest/SVHTTPRequest-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CE5176205D06FF3FFE3DDDA9291E44B /* Debug */,
+				74857149DC1E0D599B8A01A78349A926 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6D62E66FC80A1E23E63378963C9C389E /* Build configuration list for PBXNativeTarget "SVHTTPRequest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4083A863A7E76C016B007F93BAE7A12 /* Debug */,
+				7E61BD0B77977949ADF1FA58EC375B61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4265CA9215C1CA331320FE7E05CBC9D /* Build configuration list for PBXNativeTarget "Pods-Crescendo Homework" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0091C5CF23678070FFFFF293F56E64EA /* Debug */,
+				C59BB2E97F7221F0A7B5BA8CB0031273 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
