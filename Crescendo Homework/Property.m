@@ -7,6 +7,7 @@
 //
 
 #import "Property.h"
+#import "Room.h"
 
 @implementation Property
 
@@ -20,6 +21,20 @@
     property.postalCode = data[@"zip"];
 
     return property;
+}
+
+- (NSDictionary *)dictionaryRepresenation
+{
+    NSMutableArray *rooms = [NSMutableArray new];
+    for (Room *room in self.rooms) {
+        [rooms addObject:[room dictionaryRepresenation]];
+    }
+    NSDictionary *dict = @{
+                           @"id": self.propertyId,
+                           @"rooms": rooms,
+                           };
+
+    return dict;
 }
 
 @end

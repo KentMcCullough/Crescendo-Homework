@@ -8,15 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		2A7715CC8CE39367673472B9 /* libPods-Crescendo Homework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 937B95971389BAEA71D5475B /* libPods-Crescendo Homework.a */; };
+		37A19C521BE7DD2400E5C1D9 /* PropertyListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A19C511BE7DD2400E5C1D9 /* PropertyListViewController.m */; };
+		37A19C551BE9508B00E5C1D9 /* RoomListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A19C541BE9508B00E5C1D9 /* RoomListViewController.m */; };
+		37A19C581BE9617E00E5C1D9 /* Room.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A19C571BE9617E00E5C1D9 /* Room.m */; };
+		37A19C601BE966F500E5C1D9 /* RoomDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A19C5F1BE966F500E5C1D9 /* RoomDetailViewController.m */; };
+		37A19C631BE96F5200E5C1D9 /* SubmitResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37A19C621BE96F5200E5C1D9 /* SubmitResultsViewController.m */; };
 		37BF51911BE1D67500E7A507 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51901BE1D67500E7A507 /* main.m */; };
 		37BF51941BE1D67500E7A507 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51931BE1D67500E7A507 /* AppDelegate.m */; };
-		37BF51971BE1D67500E7A507 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51961BE1D67500E7A507 /* ViewController.m */; };
 		37BF519A1BE1D67500E7A507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BF51981BE1D67500E7A507 /* Main.storyboard */; };
 		37BF519C1BE1D67500E7A507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37BF519B1BE1D67500E7A507 /* Assets.xcassets */; };
 		37BF519F1BE1D67500E7A507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37BF519D1BE1D67500E7A507 /* LaunchScreen.storyboard */; };
 		37BF51AA1BE1D67500E7A507 /* Crescendo_HomeworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51A91BE1D67500E7A507 /* Crescendo_HomeworkTests.m */; };
 		37BF51B51BE1D67500E7A507 /* Crescendo_HomeworkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51B41BE1D67500E7A507 /* Crescendo_HomeworkUITests.m */; };
-		37BF51C41BE1D89200E7A507 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51C31BE1D89200E7A507 /* Property.m */; settings = {ASSET_TAGS = (); }; };
+		37BF51C41BE1D89200E7A507 /* Property.m in Sources */ = {isa = PBXBuildFile; fileRef = 37BF51C31BE1D89200E7A507 /* Property.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,12 +41,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37A19C501BE7DD2400E5C1D9 /* PropertyListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyListViewController.h; sourceTree = "<group>"; };
+		37A19C511BE7DD2400E5C1D9 /* PropertyListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyListViewController.m; sourceTree = "<group>"; };
+		37A19C531BE9508B00E5C1D9 /* RoomListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomListViewController.h; sourceTree = "<group>"; };
+		37A19C541BE9508B00E5C1D9 /* RoomListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomListViewController.m; sourceTree = "<group>"; };
+		37A19C561BE9617E00E5C1D9 /* Room.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Room.h; sourceTree = "<group>"; };
+		37A19C571BE9617E00E5C1D9 /* Room.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Room.m; sourceTree = "<group>"; };
+		37A19C5E1BE966F500E5C1D9 /* RoomDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoomDetailViewController.h; sourceTree = "<group>"; };
+		37A19C5F1BE966F500E5C1D9 /* RoomDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoomDetailViewController.m; sourceTree = "<group>"; };
+		37A19C611BE96F5200E5C1D9 /* SubmitResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SubmitResultsViewController.h; sourceTree = "<group>"; };
+		37A19C621BE96F5200E5C1D9 /* SubmitResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SubmitResultsViewController.m; sourceTree = "<group>"; };
 		37BF518C1BE1D67500E7A507 /* Crescendo Homework.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Crescendo Homework.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		37BF51901BE1D67500E7A507 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		37BF51921BE1D67500E7A507 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		37BF51931BE1D67500E7A507 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		37BF51951BE1D67500E7A507 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		37BF51961BE1D67500E7A507 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		37BF51991BE1D67500E7A507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		37BF519B1BE1D67500E7A507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		37BF519E1BE1D67500E7A507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -95,6 +107,32 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		37A19C591BE9618400E5C1D9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				37BF51C21BE1D89200E7A507 /* Property.h */,
+				37BF51C31BE1D89200E7A507 /* Property.m */,
+				37A19C561BE9617E00E5C1D9 /* Room.h */,
+				37A19C571BE9617E00E5C1D9 /* Room.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		37A19C5A1BE9619C00E5C1D9 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				37A19C531BE9508B00E5C1D9 /* RoomListViewController.h */,
+				37A19C541BE9508B00E5C1D9 /* RoomListViewController.m */,
+				37A19C5E1BE966F500E5C1D9 /* RoomDetailViewController.h */,
+				37A19C5F1BE966F500E5C1D9 /* RoomDetailViewController.m */,
+				37A19C501BE7DD2400E5C1D9 /* PropertyListViewController.h */,
+				37A19C511BE7DD2400E5C1D9 /* PropertyListViewController.m */,
+				37A19C611BE96F5200E5C1D9 /* SubmitResultsViewController.h */,
+				37A19C621BE96F5200E5C1D9 /* SubmitResultsViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		37BF51831BE1D67500E7A507 = {
 			isa = PBXGroup;
 			children = (
@@ -122,10 +160,8 @@
 			children = (
 				37BF51921BE1D67500E7A507 /* AppDelegate.h */,
 				37BF51931BE1D67500E7A507 /* AppDelegate.m */,
-				37BF51951BE1D67500E7A507 /* ViewController.h */,
-				37BF51961BE1D67500E7A507 /* ViewController.m */,
-				37BF51C21BE1D89200E7A507 /* Property.h */,
-				37BF51C31BE1D89200E7A507 /* Property.m */,
+				37A19C5A1BE9619C00E5C1D9 /* Controllers */,
+				37A19C591BE9618400E5C1D9 /* Models */,
 				37BF51981BE1D67500E7A507 /* Main.storyboard */,
 				37BF519B1BE1D67500E7A507 /* Assets.xcassets */,
 				37BF519D1BE1D67500E7A507 /* LaunchScreen.storyboard */,
@@ -334,10 +370,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				37BF51971BE1D67500E7A507 /* ViewController.m in Sources */,
+				37A19C551BE9508B00E5C1D9 /* RoomListViewController.m in Sources */,
 				37BF51941BE1D67500E7A507 /* AppDelegate.m in Sources */,
 				37BF51C41BE1D89200E7A507 /* Property.m in Sources */,
 				37BF51911BE1D67500E7A507 /* main.m in Sources */,
+				37A19C581BE9617E00E5C1D9 /* Room.m in Sources */,
+				37A19C631BE96F5200E5C1D9 /* SubmitResultsViewController.m in Sources */,
+				37A19C601BE966F500E5C1D9 /* RoomDetailViewController.m in Sources */,
+				37A19C521BE7DD2400E5C1D9 /* PropertyListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
