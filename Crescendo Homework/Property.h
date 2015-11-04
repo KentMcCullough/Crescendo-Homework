@@ -10,12 +10,16 @@
 
 @interface Property : NSObject
 
++ (instancetype)propertyFromData:(NSDictionary *)data;
+
 @property (nonatomic, strong) NSString *propertyId;
 @property (nonatomic, strong) NSString *address;
 @property (nonatomic, strong) NSString *city;
 @property (nonatomic, strong) NSString *state;
 @property (nonatomic, strong) NSString *postalCode;
 @property (nonatomic, strong) NSArray *rooms;
+
+- (NSDictionary *)dictionaryRepresenation;
 
 @end
 
